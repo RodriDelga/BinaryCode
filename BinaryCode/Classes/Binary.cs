@@ -32,7 +32,7 @@ namespace BinaryCode.Classes
                 { 
                     correctChain += cipherChain[i];
                 }
-                resultado += " " + correctChain;
+                resultado += correctChain + " ";
                 // Console.WriteLine(resultado);
                 numC++;
             }
