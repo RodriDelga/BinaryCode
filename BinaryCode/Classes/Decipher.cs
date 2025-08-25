@@ -15,7 +15,7 @@ namespace BinaryCode.Classes
             string[] codeArray = new string[8];
             string code = "";
             chain = chain.Replace(" ", "");
-            Console.WriteLine(chain);
+            // Console.WriteLine(chain);
             while (!string.IsNullOrEmpty(chain))
             {
                 if (!string.IsNullOrEmpty(chain))
