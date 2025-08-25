@@ -14,6 +14,8 @@ namespace BinaryCode.Classes
             char decipher;
             string[] codeArray = new string[8];
             string code = "";
+            chain = chain.Replace(" ", "");
+            Console.WriteLine(chain);
             while (!string.IsNullOrEmpty(chain))
             {
                 if (!string.IsNullOrEmpty(chain))

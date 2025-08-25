@@ -1,5 +1,31 @@
 ﻿using BinaryCode.Classes;
 
+//Code[0] = "01000001";//A
+//Code[1] = "01000010";//B
+//Code[2] = "01000011";//C
+//Code[3] = "01000100";//D
+//Code[4] = "01000101";//E
+//Code[5] = "01000110";//F
+//Code[6] = "01000111";//G
+//Code[7] = "01001000";//H
+//Code[8] = "01001001";//I
+//Code[9] = "01001010";//J
+//Code[10] = "01001011";//K
+//Code[11] = "01001100";//L
+//Code[12] = "01001101";//M
+//Code[13] = "01001110";//N
+//Code[14] = "01001111";//O
+//Code[15] = "01010000";//P
+//Code[16] = "01010001";//Q
+//Code[17] = "01010010";//R
+//Code[18] = "01010011";//S
+//Code[19] = "01010100";//T
+//Code[20] = "01010101";//U
+//Code[21] = "01010110";//V
+//Code[22] = "01010111";//W
+//Code[23] = "01011001";//X
+//Code[24] = "01011010";//Z
+
 Binary start = new Binary();
 Decipher_ decipher = new Decipher_();
 
@@ -10,6 +36,7 @@ Console.WriteLine("What would you like to do?");
 Console.WriteLine("1- Cipher chain");
 Console.WriteLine("2- Decipher binary code");
 num = int.Parse(Console.ReadLine());
+
 
 switch (num)
 {
