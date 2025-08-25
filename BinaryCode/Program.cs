@@ -14,7 +14,7 @@ num = int.Parse(Console.ReadLine());
 switch (num)
 {
     case 1:
-        Console.WriteLine("Write your characters:");
+        Console.WriteLine("Write your characters: ");
         chain = Console.ReadLine();
         Console.WriteLine($"You´re cipher chain is {start.Cypher(chain)}");
         break;
