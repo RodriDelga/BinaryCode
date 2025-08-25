@@ -10,30 +10,30 @@ namespace BinaryCode.Classes
     {
         public string Cypher(string chain)
         {
-            string cypherChain, correctChain;
-            char cypher;
+            string cipherChain, correctChain;
+            char cipher;
             int numC = 0, character, totalCypher;
             string resultado = "";
             while (numC < chain.Length)
             {
-                cypherChain = "";
+                cipherChain = "";
                 correctChain = "";
-                cypher = chain[numC];
-                character = (int)(cypher);
+                cipher = chain[numC];
+                character = (int)(cipher);
                 for (int i = 0; i < 7; i++) 
                 {
                     totalCypher = character % 2;
                     character = character / 2;
-                    Console.WriteLine(character);
-                    cypherChain += totalCypher;
+                    // Console.WriteLine(character);
+                    cipherChain += totalCypher;
                 }
-                cypherChain += "0";
+                cipherChain += "0";
                 for (int i = 7; i >= 0; i--) 
                 { 
-                    correctChain += cypherChain[i];
+                    correctChain += cipherChain[i];
                 }
-                resultado += correctChain;
-                Console.WriteLine(resultado);
+                resultado += " " + correctChain;
+                // Console.WriteLine(resultado);
                 numC++;
             }
             return resultado;
