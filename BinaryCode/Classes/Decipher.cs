@@ -60,16 +60,16 @@ namespace BinaryCode.Classes
         public bool check_code(string chain, string[] codeArray)
         {
             bool result = false;
-            for (int i = 0; i < codeArray.Length; i++)
+            foreach (string index in codeArray)
             {
-                if (codeArray[i] == "0" || codeArray[i] == "1")
+                if (index == "0" || index == "1")
                 {
                     // Console.WriteLine($"Arreglo[{i}]={codeArray[i]}");
                     result = true;
                 }
                 else
                 {
-                    Console.WriteLine(codeArray[i]);
+                    Console.WriteLine(index);
                     break;
                 }
             }

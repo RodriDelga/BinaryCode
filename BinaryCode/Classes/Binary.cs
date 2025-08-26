@@ -38,5 +38,9 @@ namespace BinaryCode.Classes
             }
             return resultado;
         }
+        //public string Error(string num)
+        //{
+            
+        //}
     }
 }
